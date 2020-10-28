@@ -1,0 +1,47 @@
+body {
+	background-image: url(images/dark-wood.jpg);
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.main {
+	background-color: white;
+	margin: 0px auto;
+	width: 940px;
+	height: 680px;
+}
+
+header {
+	background-color: gray;
+}
+header ul {
+	margin-top: 0;
+	padding-left: 32px;
+	letter-spacing: 40px;
+}
+header li {
+	letter-spacing: normal;
+	list-style: none;
+	display: inline;
+}
+header a {
+	color: white;
+	text-decoration: none;
+}
+header a:hover {
+	color: black;
+}
+
+.bot {
+
+}
+
+.left {
+	float: left;
+	width: 700px;
+}
+.img {
+	float: left;
+	width: 360px;
+}
+.content p{
+}
