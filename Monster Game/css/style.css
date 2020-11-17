@@ -1,0 +1,61 @@
+body {
+	background-color: black;
+	color: green;
+}
+
+.wrapbody {
+	padding-left: 100px;
+}
+
+header {
+	text-align: center;
+	margin-left: 90px;
+	position: absolute;
+	z-index: 3;
+}
+
+.lightning {
+
+	position: absolute;
+	display: none;
+	z-index: 0;
+}
+
+.frame {
+	margin-left: 50px;
+	background-image: url('../images/frame.png');
+	top: 90px;
+	width: 450px;
+	height: 630px;
+	position: absolute;
+	padding-left: 92px;
+	z-index: 1;
+}
+
+.monster {
+	width: 365px;
+	overflow: hidden;
+	padding-top: 85px;
+	z-index: 2;
+	left: 0px;
+	top: 0px;
+}
+
+.headsstrip {
+	position: relative;
+	height: 172px;
+}
+
+.eyesstrip {
+	position: relative;
+	height: 78px;
+}
+
+.nosesstrip {
+	position: relative;
+	height: 86px;
+}
+
+.mouthsstrip {	
+	position: relative;
+}
